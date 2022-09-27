@@ -1,71 +1,41 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<!-- the doctype declaration should be included at the start of the HTML document -->
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Activity 1: Basic HTML Bio</title>
+  <!-- The title element belongs inside the head -->
+  <title>Fix The HTML</title>
 </head>
 
 <body>
-<!-- Headline -->
-<h1>Mai Dang</h1>
-<!-- Image -->
-<img src="https://miro.medium.com/max/1400/1*L76A5gL6176UbMgn7q4Ybg.jpeg" alt="Math" />
-<br>
+  <!-- The closing tag for the h1 was an h2 -->
+  <h1>Welcome</h1>
+  <!-- hr had an improper closing tag, it's a void or self-closing element -->
+  <hr>
+  <!-- img had an improper closing tag, it's a void or self-closing element -->
+  <img width="200" src="https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/11-Web/kids_dancing_hip_hop.png" alt="children learning to dance hip-hop" /></img>
 
-<p>I am a food lover. I love eating and I love exlploring new cusines. 
-  My favorite food is chocolate and seafood. I eat at least 4-5 meals a day and snack whenever possible. </p>
- 
-<p>My favorite subject is Math and Physics. </p>
+  <h3>Some Todos</h3>
+  <ol>
+    <li>Learn HTML</li>
+    <li>Learn CSS</li>
+    <li>Learn JavaScript</li>
+  <!-- The ol ending tag was missing the backslash -->
+  </ol>
 
-<<h2>Links</h322>
-<ul>
-  <li><a href="https://www.youtube.com">Youtube</a></li>
-  <li><a href="https://www.twitter.com">Twitter</a></li>
-  <li><a href="https://www.linkedin.com">LinkedIn</a></li>
-  <li><a href="https://www.github.com">Github</a></li>
-  <li><a href="https://www.stackoverflow.com">StackOverflow</a></li>
-</ul>
+  <h3>Some Helpful Links</h3>
+  <ul>
+    <li><a href="http://html5doctor.com/" target="_blank">HTML5 Doctor</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/" target="_blank">Mozilla Developer Network</a></li>
+    <li><a href="https://css-tricks.com/" target="_blank">CSS Tricks</a></li>
+  </ul>
 
+  <!-- This br had an unnecessary closing tag -->
+  <br>
 
-<table border="1">
-  <thead>
-    <tr>
-      <th colspan="4">About Myself</th>
-    </tr>
-    <tr>
-      <th>Movies</th>
-      <th>Songs</th>
-      <th>Books</th>
-      <th>Activities</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Lion King</td>
-      <td>Let it go</td>
-      <td>Animal Planet</td>
-      <td>Eating</td>
-    </tr>
-    <tr>
-      <td>Snow White</td>
-      <td>Kiss the girl</td>
-      <td>Harry Potter </td>
-      <td>Sleeping</td>
-    </tr>
-    <tr>
-      <td>Cinderella</td>
-      <td>A Whole New World</td>
-      <td>The Davinci Code</td>
-      <td>Swimming</td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr>
-      <td colspan="4">The End</td>
-    </tr>
-  </tfoot>
-</table>
-
+  <!-- The iframe element was missing a closing tag -->
+  <iframe width="640" height="390" src="https://www.youtube.com/embed/M7lc1UVf-VE?autoplay=1&origin=http://example.com"></iframe>
 </body>
 
+<!-- The closing html tag was missing the backslash -->
 </html>
