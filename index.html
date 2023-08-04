@@ -1,41 +1,69 @@
 <!DOCTYPE html>
-<!-- the doctype declaration should be included at the start of the HTML document -->
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <!-- The title element belongs inside the head -->
-  <title>Fix The HTML</title>
-</head>
+<html lang="en" >
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+      <title>Personality Test</title>
+        <link rel="stylesheet" href="../static/style/style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
+  </head>
+  <!-- Start of Container 1 -->
+  <body>
+    <div class="container1">
+      <!-- Start of Nav Bar -->
+      <div class="nav-bar">
+        <span><h1>Mai Dang - Home Page </h1></span>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="https://ctg-smu-data.shinyapps.io/Housing_Ames_Iowa/">R Shiny app</a></li>
+            <li><a href="contact.html">Contacts</a></li>
+          </ul>
+      </div>
+       
+     <div class="container3">
+        <canvas id="canvas2"></canvas>
+          <script src="../static/js/script2.js"></script>
+      <div class="container4">
+    
+    </div>
+    <div class = "container">
+      <div class = "row">
+          <div class = "col-md-8">
+              <div class = "box">
+                  <h1 class = "title">Mai Dang's Portfolio</h1>
+                  <hr class = solid>
+                  <p> The purpose of this page is to showcase the projects that I have been work on either by myself or in a collaborations with my classmates 
+                    and colleagues in the SMU Data Science program. 
+                  </p>
+                  <p> The projects are created usign the knowledge and skills that have learned in the program. Please click the link on the right to see the projects. You could also visit our R Shiny App that I created in this program. </p>
+              </div>
+              
+          </div>
+          <div class = "col-md-4">
+              <div class = "box">
+                  <h2 class = "title">Projects</h2>
+                  <hr class = solid>
+                  <div class = "container">
+                      <div class = "row" style = "padding-top: 20px;">
+                        <div class = "box">
+                          <ul>
+                            <li><a href="https://drive.google.com/file/d/174LafCNbPf8mn6zN0Bei9YAzofvBzCOi/view?usp=drive_link" alt = "Housing Price Prediction Project">Housing Price Prediction</a></li>
+                          </ul>
+                        </div>
 
-<body>
-  <!-- The closing tag for the h1 was an h2 -->
-  <h1>Welcome</h1>
-  <!-- hr had an improper closing tag, it's a void or self-closing element -->
-  <hr>
-  <!-- img had an improper closing tag, it's a void or self-closing element -->
-  <img width="200" src="https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/11-Web/kids_dancing_hip_hop.png" alt="children learning to dance hip-hop" /></img>
+                          
+                      
+                      </div>
 
-  <h3>Some Todos</h3>
-  <ol>
-    <li>Learn HTML</li>
-    <li>Learn CSS</li>
-    <li>Learn JavaScript</li>
-  <!-- The ol ending tag was missing the backslash -->
-  </ol>
+                      
+                  </div>
+              </div>
+          </div>
 
-  <h3>Some Helpful Links</h3>
-  <ul>
-    <li><a href="http://html5doctor.com/" target="_blank">HTML5 Doctor</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/" target="_blank">Mozilla Developer Network</a></li>
-    <li><a href="https://css-tricks.com/" target="_blank">CSS Tricks</a></li>
-  </ul>
-
-  <!-- This br had an unnecessary closing tag -->
-  <br>
-
-  <!-- The iframe element was missing a closing tag -->
-  <iframe width="640" height="390" src="https://www.youtube.com/embed/M7lc1UVf-VE?autoplay=1&origin=http://example.com"></iframe>
-</body>
-
-<!-- The closing html tag was missing the backslash -->
+      </div>
+  </body>
 </html>
+
+        
